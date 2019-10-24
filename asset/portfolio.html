@@ -3,20 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Contact | Your Name</title>
+  <title>Portfolio | Your Name</title>
   <meta name="viewport" 
         content= "width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  
 </head>
 
 <body>
-  
- <!-- jQuery-->
- <script src="https://code.jquery.com/jquery.js"></script>
- <!--Link to contact.js-->
- <script src="asset/Javascript/contact.js"></script>
-
     <div class="sticky-top">
         <header >
             <span class="border-bottom">
@@ -47,41 +41,35 @@
         </header>
         </div>
 
+  <!--beginning of section-->
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>Contact</h1>
+      <h1>Portfolio</h1>
 
-      <form id="contact-form">
-        <ul>
-          <li>
-              <label for="basic-url">Name</label>
-              <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon3">Jonh Smith</span>
-                </div>
-                <input type="text" class="form-control" id="basic-url name" aria-describedby="basic-addon3">
-              </div>
-            
-          </li>
-          <li>
-              <label for="basic-url">Email</label>
-              <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon3">example@gmail.com/</span>
-                </div>
-                <input type="text" class="form-control" id="basic-url email" aria-describedby="basic-addon3">
-              </div>
-          </li>
-          <li>
-              <label for="basic-url">Message</label>
-              <textarea id="message"class="form-control" aria-label="With textarea"></textarea>
-          </li>
-        </ul>
-        <input id="submit" type="submit">
-      </form>
+      <!--set column-->
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="work">
+                <a href="https://ghostyinhaut.github.io/GifTastic/">
+                <img src="technics-q-c-640-480-1.jpg" width="500" height="500"alt="Word Guess">
+                </a>
+              <h3>GifTastic</h3>
+            </div>
+          </div>
+          <div class="col">
+            <div class="work">
+                <a href="https://ghostyinhaut.github.io/Train-Scheduler/">
+                <img src="Screenshot (9).png" width="500" height="500" alt="Train-Scheduler">
+                </a>
+            <h3>Train-Scheduler</h3>
+          </div>
+          </div>
+      `</div>
+      </div>
 
     </section>
-
+    <!--end of section-->
   </div>
 
   <div class="fixed-bottom">
@@ -91,6 +79,7 @@
       </div>
     </footer>
   </div>
+</body>
 
 </body>
 
